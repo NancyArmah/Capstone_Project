@@ -1,6 +1,9 @@
 # Capstone_Project
-[image](https://github.com/NancyArmah/Capstone_Project/blob/main/ccfraud.png)
-
+<div align="center">
+  
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/wordcloud.png" width="400">
+  
+</div>
 From the moment the e-commerce payment systems came to existence, there have always been people who will find new ways to access someone’s finances illegally. This has become a major problem in the modern era, as all transactions can easily be completed online by only entering your credit card information.
 
 Payment card fraud is a major challenge for businesses, payment card issuers and tranactional service companies. The losses from payment card fraud reached 28.6 billion worldwide in 2019 according to [Nilson Report Data](https://nilsonreport.com/content_promo.php?id_promo=16). United States alone is responsible for more than a third of the total global loss, making it the most card fraud prone country in the world. 
