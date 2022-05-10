@@ -14,3 +14,13 @@ It should also be noted that fraud detection is a cat and mouse game, where frau
 Credit card fraud detection (CCFD) is like looking for needles in a haystack. It requires finding, out of millions of daily transactions, which ones are fraudulent. Due to the ever-increasing amount of data, it is now almost impossible for a human specialist to detect meaningful patterns from transaction data. For this reason, the use of machine learning techniques is now widespread in the field of fraud detection, where information extraction from large datasets is required.
 
 Credit Card Fraud Detection with Machine Learning is a process of data investigation and the development of a model that will provide the best results in revealing and preventing fraudulent transactions. This is achieved through bringing together all meaningful features of card users’ transactions. The information is then run through a subtly trained model that finds patterns and rules so that it can classify whether a transaction is fraudulent or is legitimate. 
+
+# Objective
+
+*   Train a Machine Learning Model with historic data to learn patterns behind fraudulent behavior to enable the model filter out fraudulent transactions and stop them from occurring in real-time.
+
+#  Data
+
+Simulated credit card transaction dataset from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection) containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000 customers doing transactions with a pool of 800 merchants.
+
+This was generated using [Sparkov Data Generation | Github](https://github.com/namebrandon/Sparkov_Data_Generation) tool created by Brandon Harris. This simulation was run for the duration - 1 Jan 2019 to 31 Dec 2020. The files were then combined and converted into a standard format.
