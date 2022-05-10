@@ -5,10 +5,13 @@
   
 </div>
 
+<div align="center">
+
 | File | Description |
 |---|---|
 | [Main Notebook](https://github.com/NancyArmah/Capstone_Project/blob/main/Capstone.ipynb) | Main Notebook submitted for Capstone Project  |
 
+</div>
 
 From the moment the e-commerce payment systems came to existence, there have always been people who will find new ways to access someone’s finances illegally. This has become a major problem in the modern era, as all transactions can easily be completed online by only entering your credit card information.
 
