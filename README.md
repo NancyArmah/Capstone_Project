@@ -34,4 +34,32 @@ This was generated using [Sparkov Data Generation | Github](https://github.com/n
 * EDA
 * Balance Dataset
 * Modelling
-* 
+
+# Modelling
+
+SMOTE to handle the imbalance in the dataset
+The challenge of working with imbalanced datasets is that most machine learning techniques will ignore, and in turn have poor performance on, the minority class, although typically it is performance on the minority class that is most important. One approach to addressing imbalanced datasets is to oversample the minority class. The simplest approach involves duplicating examples in the minority class, although these examples don’t add any new information to the model. Instead, new examples can be synthesized from the existing examples. This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short.
+
+## Supervised Learning Models Used
+
+* Logistic Regression
+* Decision Tree 
+* XGBoost
+
+Both Decsion Tree and XGboost performed well in the detection of the fradulent transactions with both returning a recall score of 74% as that is what we were modelling for.
+
+# Challenges
+
+Some challenges faced during the project are;
+
+* Lack of public datasets: For obvious confidentiality reasons, real-world credit card transactions cannot be publicly shared. There exists only one publicly shared dataset, which was made available on Kaggle
+
+* Class imbalance: Transaction data contain much more legitimate than fraudulent transactions: The percentage of fraudulent transactions in a real-world dataset is typically well under 1%. Learning from imbalanced data is a difficult task since most learning algorithms do not handle well large differences between classes. 
+
+* Categorical features: Transactional data typically contain numerous categorical features, such as the ID of a customer, a terminal, the card type, and so on. Categorical features are not well handled by machine learning algorithms and must be transformed into numerical features.
+
+# Future Work
+
+* Train a more models to get one that is able to balance between precision and recall score
+* Try other sampling techniques
+* Include deep learning models
