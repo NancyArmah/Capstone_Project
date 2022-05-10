@@ -27,3 +27,11 @@ Credit Card Fraud Detection with Machine Learning is a process of data investiga
 Simulated credit card transaction dataset from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection) containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000 customers doing transactions with a pool of 800 merchants.
 
 This was generated using [Sparkov Data Generation | Github](https://github.com/namebrandon/Sparkov_Data_Generation) tool created by Brandon Harris. This simulation was run for the duration - 1 Jan 2019 to 31 Dec 2020. The files were then combined and converted into a standard format.
+
+#Pipiline
+* Import Packages
+* Import Data
+* EDA
+* Balance Dataset
+* Modelling
+* 
